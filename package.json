@@ -1,0 +1,25 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "Full stack app",
+  "main": "apikey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliefrancis/project_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliefrancis/project_2/issues"
+  },
+  "homepage": "https://github.com/nataliefrancis/project_2#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.2"
+  }
+}
