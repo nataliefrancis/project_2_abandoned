@@ -1,13 +1,13 @@
 var mongoose = require('mongoose');
 	Schema = mongoose.Schema;
-	User = require('./users.js');
+	User = require('./user.js');
 
 var TripSchema = new Schema({
 	place: String,
 	sights: String,
 	foods: String,
 	activities: String,
-	user: {type: Schema.Types.ObjectId, ref: 'User'}
+	// user: {type: Schema.Types.ObjectId, ref: 'User'}
 });
 
 var Trip = mongoose.model('Trip', TripSchema);
