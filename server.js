@@ -46,7 +46,7 @@ app.use(function(req, res, next) {
 	next();
 });
 
-
+// put in app.use for router
 
 ///////////////////////
 //	ROUTES 

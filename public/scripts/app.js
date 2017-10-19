@@ -18,11 +18,13 @@ function initMap() {
   function placeMarkerAndPanTo(latLng, map) {
     //Type of marker
     var marker = new google.maps.Marker({
-    position: latLng,
-    map: map
+      position: latLng,
+      map: map
     });
     // recenter the map to where the marker was pinned
     map.panTo(latLng);
   }
   
 }
+
+
